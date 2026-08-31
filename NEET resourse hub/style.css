@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(236, 229, 193);
+    h2{
+        font-weight: bold;
+    color: rgb(54, 73, 21);
+    margin-bottom: -20px;
+    }
+    p{
+        margin: top 0px;;
+        color:rgb(30,30,30);
+
+    }
+.resourse{
+    p{
+        color:rgb(30,30,30);
+    }
+}
+.navigation{
+    nav{
+        text-align: center;
+    }
+    nav a{
+        display:inline-block;
+        width:180px;
+        height:100%;
+        padding:25px 15px;
+        margin:15px;
+        background-color: rgb(85,107,47);
+        color:white;
+        text-decoration:none;
+        text-align:center;
+        border:8px solid rgb(60,75,30);
+        border-radius:2px;
+        box-shadow:6px 6px 0px rgb(45,45,45);
+    }
+
+
+}
+}
+/*responsive web design*/
+@media(max-width:768px)
+/*apply these styles when the screen width is 768px or less*/
+{
+    h2{
+        font-size:28px;
+    }
+    p{
+        font-size:15px;
+        padding:0 15px;
+    }
+    nav a{
+        display:block;
+        width:auto;
+        margin: 15px 30px;
+    }
+}
